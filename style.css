@@ -1,0 +1,92 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #ffd0d7, #FF69B4);
+    color: #4A4A4A;
+    text-align: center;
+}
+body::before {
+    content: "❤";
+    position: fixed;
+    top: 10%;
+    left: 15%;
+    font-size: 100px;
+    color: rgba(195, 72, 92, 0.527);
+    z-index: -1;
+}
+body::after {
+    content: "❤";
+    position: fixed;
+    bottom: 10%;
+    right: 15%;
+    font-size: 150px;
+    color: rgba(188, 80, 112, 0.564);
+    z-index: -1;
+}
+
+.texto-grande h1 {
+    font-size: 40px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    margin: 20px 30px;
+}
+
+.textos {
+    font-size: 17px;
+    line-height: 0.5;
+}
+
+.carousel {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.carousel-container {
+    display: flex;
+    animation: slide 30s infinite;
+}
+
+.slide {
+    min-width: 100%;
+    border-bottom: 4px solid #FFFFFF;
+    transition: 0.5s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.slide p {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    padding: 11px;
+    font-size: 17px;
+    line-height: 0;
+    font-style: italic;
+}
+
+.final-message p {
+    font-size: 1.5rem;
+    color: #4A4A4A;
+    margin: 30px;
+}
+
+footer {
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+@keyframes slide {
+    0%, 25% { transform: translateX(0); }
+    26%, 50% { transform: translateX(-100%); }
+    51%, 75% { transform: translateX(-200%); }
+    76%, 100% { transform: translateX(-300%); }
+}
