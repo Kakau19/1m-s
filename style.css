@@ -69,8 +69,8 @@ body::after {
 .slide p {
     background-color: rgba(255, 255, 255, 0.8);
     margin: 0;
-    padding: 10px;
-    font-size: 17px;
+    padding: 9px;
+    font-size: 15px;
     line-height: 0;
     font-style: italic;
 }
