@@ -34,9 +34,9 @@ body::after {
 }
 
 .textos {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 0.5;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.2);
 }
 
 .carousel {
@@ -83,7 +83,7 @@ body::after {
 }
 
 .final-message p {
-    font-size: 30px;
+    font-size: 27px;
     line-height: 0.2;
     font-weight: bold;
     color: #4A4A4A;
