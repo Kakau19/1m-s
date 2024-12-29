@@ -41,7 +41,7 @@ body::after {
 
 .carousel {
     width: 100%;
-    max-width: 300px;
+    max-width: 270px;
     margin: 20px auto;
     overflow: hidden;
     border-radius: 10px;
@@ -69,7 +69,7 @@ body::after {
 .slide p {
     background-color: rgba(255, 255, 255, 0.8);
     margin: 0;
-    padding: 11px;
+    padding: 10px;
     font-size: 17px;
     line-height: 0;
     font-style: italic;
